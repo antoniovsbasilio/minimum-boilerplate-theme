@@ -1,0 +1,17 @@
+.flexRowContent--header {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    justify-content: space-around;
+}
+.flexCol--header-col1 {
+}
+.flexCol--header-col2 {
+    flex-direction: row;
+}
+
+.flexColChild--header-col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

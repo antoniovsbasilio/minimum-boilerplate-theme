@@ -1,0 +1,75 @@
+{
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer-desktop"]
+  },
+  "flex-layout.row#footer-desktop": {
+    "props": {
+      "blockClass": "flexRowFooterDesktop"
+    },
+    "children": [
+      "flex-layout.col#footer-col1",
+      "flex-layout.col#footer-col2",
+      "flex-layout.col#footer-col3"
+    ]
+  },
+  "flex-layout.col#footer-col1": {
+    "props": {
+      "blockClass": "footerCol1"
+    },
+    "children": ["rich-text#location-title", "rich-text#location-info"]
+  },
+  "rich-text#location-title": {
+    "props": {
+      "text": "## Localização",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "locationTitle"
+    }
+  },
+  "rich-text#location-info": {
+    "props": {
+      "text": "#### Avenida Andrômeda, 2000. Bloco 6 e 8 \n #### Alphavile SP \n #### brasil@corebiz.ag \n #### +55 11 3090 1039",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "locationInfo"
+    }
+  },
+  "flex-layout.col#footer-col2": {
+    "props": {
+      "blockClass": "footerCol2"
+    },
+    "children": ["link#contact", "link#consultor"]
+  },
+  "link#contact": {
+    "props": {
+      "blockClass": ["buttonLinkContact", "buttonLinkConsultor"],
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "href": "/",
+      "label": "Entre em contato"
+    }
+  },
+  "link#consultor": {
+    "props": {
+      "blockClass": ["buttonLinkContact", "buttonLinkConsultor"],
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "href": "/",
+      "label": "Fale com o nosso \n consultor online"
+    }
+  },
+  "flex-layout.col#footer-col3": {
+    "props": {
+      "blockClass": "logos"
+    },
+    "children": ["powered-by", "powered-by"]
+  }
+}

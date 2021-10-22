@@ -1,0 +1,30 @@
+{
+    "newsletter-form#mobile": {
+      "props": {
+        "blockClass": "newsletterMobile"
+      },
+      "children": [
+        "newsletter-input-name#mobile",
+        "newsletter-input-email#mobile",
+        "newsletter-submit#mobile"
+      ]
+    },
+    "newsletter-input-email#mobile": {
+      "props": {
+        "blockClass": "emailMobile",
+        "placeholderText": "Digite seu email"
+      }
+    },
+    "newsletter-input-name#mobile": {
+      "props": {
+        "blockClass": "nameMobile",
+        "placeholderText": "Digite seu nome"
+      }
+    },
+    "newsletter-submit#mobile": {
+      "props": {
+        "blockClass": "submitMobile",
+        "submitButtonLabel": "Eu quero!"
+      }
+    }
+  }

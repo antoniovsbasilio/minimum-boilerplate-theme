@@ -1,0 +1,44 @@
+{
+  "header-layout.mobile#header-mobile": {
+    "children": ["sticky-layout#mobile", "flex-layout.row#row2"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": ["flex-layout.row#row1"],
+    "props": {
+      "blockClass": "header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#row1": {
+    "props": {
+      "blockClass": "row1"
+    },
+    "children": ["drawer", "logo#mobile", "minicart.v2"]
+  },
+  "drawer": {
+    "children": []
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "LogoMobile",
+      "href": "/",
+      "url": "assets/images/header/logo-preta.svg",
+      "width": "100",
+      "height": "25"
+    }
+  },
+  "flex-layout.row#row2": {
+    "children": ["search-bar#mobile"]
+  },
+  "search-bar#mobile": {
+    "props": {
+        "blockClass": "search-bar-mobile",
+        "placeholder": "O que está procurando?"
+    }
+  }
+}

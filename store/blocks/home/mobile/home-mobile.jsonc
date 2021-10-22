@@ -1,0 +1,11 @@
+{
+  "responsive-layout.phone#home": {
+    "children": [
+      "slider-layout#banner-mobile",
+      "rich-text#best-seller",
+      "list-context.product-list#shelf-desktop",
+      "rich-text#newsletter-title",
+      "newsletter-form#mobile"
+    ]
+  }
+}

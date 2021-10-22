@@ -1,0 +1,26 @@
+.newsletterForm--newsletterDesktop {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.emailInputContainer--emailDesktop {
+    margin-right: 10px;
+    width: 288px;
+    height: 48px;
+}
+
+.nameInputContainer--nameDesktop {
+    margin-right: 10px;
+    width: 288px;
+    height: 48px;
+}
+
+.formSubmitContainer--submitDesktop {
+    width: 288px;
+    height: 48px;
+}

@@ -1,0 +1,15 @@
+{
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer-mobile"]
+  },
+  "flex-layout.row#footer-mobile": {
+    "props": {
+      "blockClass": "flexRowFooterMobile"
+    },
+    "children": [
+      "flex-layout.col#footer-col1",
+      "flex-layout.col#footer-col2",
+      "flex-layout.col#footer-col3"
+    ]
+  }
+}

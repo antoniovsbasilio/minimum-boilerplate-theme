@@ -1,0 +1,19 @@
+.sliderLayoutContainer--slider-shelf-desktop {
+    max-width: 1248px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.slideChildrenContainer--slider-shelf-desktop {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+}
+
+.paginationDotsContainer--bannerDesktop {
+    padding: 1rem;
+}
+
+.paginationDotsContainer--slider-shelf-desktop {
+    padding: 1rem;
+}

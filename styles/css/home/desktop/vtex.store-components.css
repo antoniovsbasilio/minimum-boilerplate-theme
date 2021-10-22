@@ -1,0 +1,16 @@
+.infoCardContainer--info-card-banner {
+    width: 100%;
+    height: 400px;
+}
+
+.infoCardHeadline--info-card-banner {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.infoCardSubhead--info-card-banner {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+}

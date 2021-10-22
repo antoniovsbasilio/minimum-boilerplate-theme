@@ -1,0 +1,25 @@
+{
+  "responsive-layout.desktop#home": {
+    "children": [
+      "slider-layout#banner-desktop",
+      "rich-text#best-seller",
+      "list-context.product-list#shelf-desktop",
+      "rich-text#newsletter-title",
+      "newsletter-form#desktop"
+    ]
+  },
+  "rich-text#best-seller": {
+    "props": {
+      "text": "## Mais Vendidos",
+      "blockClass": "titleBestSeller"
+    }
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "text": "## Participe de nossas news com promoções e novidades!",
+      "blockClass": "titleNewsletter",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

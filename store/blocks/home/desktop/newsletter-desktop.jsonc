@@ -1,0 +1,30 @@
+{
+  "newsletter-form#desktop": {
+    "props": {
+      "blockClass": "newsletterDesktop"
+    },
+    "children": [
+      "newsletter-input-name#desktop",
+      "newsletter-input-email#desktop",
+      "newsletter-submit#desktop"
+    ]
+  },
+  "newsletter-input-email#desktop": {
+    "props": {
+      "blockClass": "emailDesktop",
+      "placeholderText": "Digite seu email"
+    }
+  },
+  "newsletter-input-name#desktop": {
+    "props": {
+      "blockClass": "nameDesktop",
+      "placeholderText": "Digite seu nome"
+    }
+  },
+  "newsletter-submit#desktop": {
+    "props": {
+      "blockClass": "submitDesktop",
+      "submitButtonLabel": "Eu quero!"
+    }
+  }
+}

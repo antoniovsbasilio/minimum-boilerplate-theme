@@ -1,0 +1,11 @@
+{
+  "responsive-layout.tablet#home": {
+    "children": [
+      "slider-layout#banner-desktop",
+      "rich-text#best-seller",
+      "list-context.product-list#shelf-desktop",
+      "rich-text#newsletter-title",
+      "newsletter-form#desktop"
+    ]
+  }
+}

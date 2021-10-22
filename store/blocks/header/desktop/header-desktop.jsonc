@@ -1,0 +1,56 @@
+{
+  "header-layout.desktop#header-desktop": {
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "blockClass": "header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#col1", "flex-layout.col#col2"]
+  },
+  "flex-layout.col#col1": {
+    "props": {
+      "blockClass": "header-col1",
+      "verticalAlign": "middle",
+      "fullWidth": true
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/header/logo-preta.svg",
+      "width": "170",
+      "height": "40"
+    }
+  },
+  "flex-layout.col#col2": {
+    "props": { "blockClass": "header-col2", "fullWidth": true },
+    "children": ["search-bar#desktop", "login", "minicart.v2"]
+  },
+  "search-bar#desktop": {
+    "props": {
+        "blockClass": "search-bar-desktop",
+        "placeholder": "O que está procurando?"
+    }
+  },
+  "login": {
+    "props": {
+      "blockClass": "login",
+      "iconLabel": "Minha conta",
+      "showIconProfile": true
+    }
+  }
+}

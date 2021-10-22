@@ -1,0 +1,28 @@
+.newsletterForm--newsletterMobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.emailInputContainer--emailMobile {
+    margin-bottom: 20px;
+    width: 288px;
+    height: 48px;
+}
+
+.nameInputContainer--nameMobile {
+    margin-bottom: 20px;
+    width: 288px;
+    height: 48px;
+}
+
+.formSubmitContainer--submitMobile {
+    width: 288px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.container--titleBestSeller {
+    max-width: 1248px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.headingLevel2--titleBestSeller {
+    border-bottom: 3.5px solid #C0C0C0;
+}
+
+.container--titleNewsletter {
+    background-color: #f1f1f1;
+}
+
+.headingLevel2--locationTitle {
+    border-bottom: 4px solid #fff;
+
+}

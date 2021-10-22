@@ -1,0 +1,64 @@
+{
+    "slider-layout#banner-mobile": {
+        "children": [
+          "info-card#card1-mobile",
+          "info-card#card2-mobile",
+          "info-card#card3-mobile"
+        ],
+        "props": {
+          "blockClass": "bannerMobile",
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "autoplay": {
+            "timeout": 2000,
+            "stopOnHover": true
+          },
+          "infinite": true,
+          "showPaginationDots": "always",
+          "showNavigationArrows": "never"
+        }
+      },
+      "info-card#card1-mobile": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "assets/images/home/banner-desktop-tablet-img1.jpg",
+          "mobileImageUrl": "assets/images/home/banner-mobile-img1.png",
+          "headline": "Olá, o que você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "textAlignment": "center",
+          "blockClass": "info-card-banner-mobile",
+          "callToActionMode": "none"
+        }
+      },
+      "info-card#card2-mobile": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "assets/images/home/banner-desktop-tablet-img2.jpg",
+          "mobileImageUrl": "assets/images/home/banner-mobile-img1.png",
+          "headline": " Olá, o que você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "textAlignment": "center",
+          "blockClass": "info-card-banner-mobile",
+          "callToActionMode": "none"
+
+        }
+      },
+      "info-card#card3-mobile": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "assets/images/home/bannerimg3.jpg",
+          "mobileImageUrl": "assets/images/home/banner-mobile-img1.png",
+          "headline": " Olá, o que você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "textAlignment": "center",
+          "blockClass": "info-card-banner-mobile",
+          "callToActionMode": "none"
+        }
+      }
+}

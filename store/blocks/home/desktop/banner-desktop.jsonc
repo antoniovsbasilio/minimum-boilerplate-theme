@@ -1,0 +1,65 @@
+{
+      "slider-layout#banner-desktop": {
+        "children": [
+          "info-card#card1",
+          "info-card#card2",
+          "info-card#card3"
+        ],
+        "props": {
+          "blockClass": "bannerDesktop",
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "autoplay": {
+            "timeout": 2000,
+            "stopOnHover": true
+          },
+          "infinite": true,
+          "showPaginationDots": "always",
+          "showNavigationArrows": "never"
+        }
+      },
+      "info-card#card1": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/images/home/banner-desktop-tablet-img1.jpg",
+          "mobileImageUrl": "assets/images/home/banner-mobile-img1.png",
+          "headline": "Olá, o que você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "textAlignment": "center",
+          "blockClass": "info-card-banner",
+          "callToActionMode": "none"
+        }
+      },
+      "info-card#card2": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/images/home/banner-desktop-tablet-img2.jpg",
+          "mobileImageUrl": "assets/images/home/banner-mobile-img1.png",
+          "headline": " Olá, o que você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "callToActionUrl": "/sale/d",
+          "textAlignment": "center",
+          "blockClass": "info-card-banner",
+          "callToActionMode": "none"
+        }
+      },
+      "info-card#card3": {
+        "props": {
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "assets/images/home/bannerimg3.jpg",
+          "mobileImageUrl": "assets/images/home/banner-mobile-img1.png",
+          "headline": " Olá, o que você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "callToActionUrl": "/sale/d",
+          "textAlignment": "center",
+          "blockClass": "info-card-banner",
+          "callToActionMode": "none"
+        }
+      }
+}
